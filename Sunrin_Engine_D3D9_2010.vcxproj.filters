@@ -1,0 +1,384 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns:atg="http://atg.xbox.com" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{8e114980-c1a3-4ada-ad7c-83caadf5daeb}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe</Extensions>
+    </Filter>
+    <Filter Include="DXUT">
+      <UniqueIdentifier>{a43c5c25-0e86-4a20-b64a-883785ff74fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sunrin_Engine_D3D9">
+      <UniqueIdentifier>{e89c61f1-b94c-42f1-98c4-529817902242}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Shaders">
+      <UniqueIdentifier>{2c3d4c8c-5d1a-459a-a05a-a4e4b608a44e}</UniqueIdentifier>
+      <Extensions>fx;fxh;hlsl</Extensions>
+    </Filter>
+    <Filter Include="Sunrin_Engine_D3D9\Object">
+      <UniqueIdentifier>{cc65481b-a9f3-4a25-b83c-c74fb87a21f1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sunrin_Engine_D3D9\Utility">
+      <UniqueIdentifier>{f55bd603-7f9f-4bf4-b1aa-3033d4f226ad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sunrin_Engine_D3D9\Resource">
+      <UniqueIdentifier>{587568f5-45a1-4007-aab7-0af3e9487860}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sunrin_Engine_D3D9\Resource\Texture">
+      <UniqueIdentifier>{779677eb-6d86-45d4-b6a4-a136a6a341dc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sunrin_Engine_D3D9\Resource\Sound">
+      <UniqueIdentifier>{56fa3796-b645-404a-b6ca-4dc6e3259b41}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sunrin_Engine_D3D9\Resource\Shader">
+      <UniqueIdentifier>{fbfc027d-5675-4696-bc6c-98b3c0189fee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sunrin_Engine_D3D9\Utility\Timer">
+      <UniqueIdentifier>{9691f994-a29c-4bb5-b746-b791322dedeb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sunrin_Engine_D3D9\Utility\Math">
+      <UniqueIdentifier>{3e23bc4d-4a62-4da3-8ba4-bc73919d3b42}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sunrin_Engine_D3D9\App">
+      <UniqueIdentifier>{a04b0616-74fb-45f6-a015-77c9375b1a36}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sunrin_Engine_D3D9\Object\Sprite">
+      <UniqueIdentifier>{3740238b-1556-49c6-abea-646e52966465}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sunrin_Engine_D3D9\Object\Camera">
+      <UniqueIdentifier>{c5a23644-d81b-4bc8-b0a5-d5516fc6fc29}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sunrin_Engine_D3D9\Resource\VertexDeclaration">
+      <UniqueIdentifier>{51a5525c-7cca-41b3-b393-17d80a3ce366}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sunrin_Engine_D3D9\Object\Light">
+      <UniqueIdentifier>{9b37ff07-356d-4171-a3a2-9530e48bb87a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sunrin_Engine_D3D9\Resource\Material">
+      <UniqueIdentifier>{c6d8e71c-c72f-4b91-89cb-880fa09f8f3d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sunrin_Engine_D3D9\Object\Camera\EffectCamera">
+      <UniqueIdentifier>{43bc6da6-0062-4b56-8419-cac7d70bd953}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sunrin_Engine_D3D9\Resource\Surface">
+      <UniqueIdentifier>{366c829b-b454-4873-bdc8-68ac300ab990}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sunrin_Engine_D3D9\Resource\Font">
+      <UniqueIdentifier>{272d32ed-326e-4363-b8ca-d6682405768f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sunrin_Engine_D3D9\Object\UI">
+      <UniqueIdentifier>{25c83427-5b4d-43c4-ac78-55a25f589c46}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sunrin_Engine_D3D9\Object\UI\Text">
+      <UniqueIdentifier>{0d750618-77b1-4a4c-97c3-6bd326498d87}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sunrin_Engine_D3D9\Object\UI\Image">
+      <UniqueIdentifier>{acbbdebe-418c-4e9e-8aa7-5f9ed98ad020}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game">
+      <UniqueIdentifier>{ea5e5e56-7e6b-4f65-b6f6-544f16feb128}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Object">
+      <UniqueIdentifier>{73cbf9de-546e-449c-a591-01abf50d43e0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Scene">
+      <UniqueIdentifier>{6dc5e8da-d479-4b7b-85f5-ff24830ed47b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Object\Board">
+      <UniqueIdentifier>{2798a04b-a390-487a-bb04-45a9c2605a7e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Object\Camera">
+      <UniqueIdentifier>{d249123e-4f6c-491c-864b-9168e300b8e2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Object\Light">
+      <UniqueIdentifier>{540aac79-dd22-431f-a711-03afd0294673}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Object\Player">
+      <UniqueIdentifier>{2c301c06-b897-4917-8708-edd0b4bc6ac6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Object\Planet">
+      <UniqueIdentifier>{65526d43-81df-4505-afc0-439948150667}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Object\Enemy">
+      <UniqueIdentifier>{29fd2c0f-8062-4589-a7e0-6068fbfeeb9f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Object\EnemySpawner">
+      <UniqueIdentifier>{3a672f2a-c4b3-4769-8a03-08f40fa8bd5d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Object\Bullet">
+      <UniqueIdentifier>{7872269e-18ab-445b-8adb-e5dc542695d8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Object\Bullet\PlayerBullet">
+      <UniqueIdentifier>{1f6981d1-e1d3-4837-bb08-3354c21d327c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Object\Bullet\EnemyBullet">
+      <UniqueIdentifier>{bec1ee0e-33cd-420a-b0bc-9c630f9aafce}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DXUT\Optional\directx.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <ClInclude Include="DXUT\Core\DXUT.h">
+      <Filter>DXUT</Filter>
+    </ClInclude>
+    <ClInclude Include="DXUT\Core\DXUTenum.h">
+      <Filter>DXUT</Filter>
+    </ClInclude>
+    <ClInclude Include="DXUT\Core\DXUTmisc.h">
+      <Filter>DXUT</Filter>
+    </ClInclude>
+    <ClCompile Include="DXUT\Core\DXUT.cpp">
+      <Filter>DXUT</Filter>
+    </ClCompile>
+    <ClCompile Include="DXUT\Core\DXUTenum.cpp">
+      <Filter>DXUT</Filter>
+    </ClCompile>
+    <ClCompile Include="DXUT\Core\DXUTmisc.cpp">
+      <Filter>DXUT</Filter>
+    </ClCompile>
+    <ClInclude Include="DXUT\Optional\DXUTcamera.h">
+      <Filter>DXUT</Filter>
+    </ClInclude>
+    <ClInclude Include="DXUT\Optional\DXUTgui.h">
+      <Filter>DXUT</Filter>
+    </ClInclude>
+    <ClInclude Include="DXUT\Optional\DXUTres.h">
+      <Filter>DXUT</Filter>
+    </ClInclude>
+    <ClInclude Include="DXUT\Optional\DXUTsettingsdlg.h">
+      <Filter>DXUT</Filter>
+    </ClInclude>
+    <ClInclude Include="DXUT\Optional\SDKmesh.h">
+      <Filter>DXUT</Filter>
+    </ClInclude>
+    <ClInclude Include="DXUT\Optional\SDKmisc.h">
+      <Filter>DXUT</Filter>
+    </ClInclude>
+    <ClCompile Include="DXUT\Optional\DXUTcamera.cpp">
+      <Filter>DXUT</Filter>
+    </ClCompile>
+    <ClCompile Include="DXUT\Optional\DXUTgui.cpp">
+      <Filter>DXUT</Filter>
+    </ClCompile>
+    <ClCompile Include="DXUT\Optional\DXUTres.cpp">
+      <Filter>DXUT</Filter>
+    </ClCompile>
+    <ClCompile Include="DXUT\Optional\DXUTsettingsdlg.cpp">
+      <Filter>DXUT</Filter>
+    </ClCompile>
+    <ClCompile Include="DXUT\Optional\SDKmesh.cpp">
+      <Filter>DXUT</Filter>
+    </ClCompile>
+    <ClCompile Include="DXUT\Optional\SDKmisc.cpp">
+      <Filter>DXUT</Filter>
+    </ClCompile>
+    <None Include="Resource\Shader\SpriteShader.fx">
+      <Filter>Resource Files\Shaders</Filter>
+    </None>
+    <None Include="Resource\Shader\CameraShader.fx">
+      <Filter>Resource Files\Shaders</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Sunrin_Engine_D3D9.cpp" />
+    <ClCompile Include="App.cpp">
+      <Filter>Sunrin_Engine_D3D9\App</Filter>
+    </ClCompile>
+    <ClCompile Include="Object.cpp">
+      <Filter>Sunrin_Engine_D3D9\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Texture.cpp">
+      <Filter>Sunrin_Engine_D3D9\Resource\Texture</Filter>
+    </ClCompile>
+    <ClCompile Include="DXUT\Optional\SDKsound.cpp">
+      <Filter>DXUT</Filter>
+    </ClCompile>
+    <ClCompile Include="DXUT\Optional\SDKwavefile.cpp">
+      <Filter>DXUT</Filter>
+    </ClCompile>
+    <ClCompile Include="Sound.cpp">
+      <Filter>Sunrin_Engine_D3D9\Resource\Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="Shader.cpp">
+      <Filter>Sunrin_Engine_D3D9\Resource\Shader</Filter>
+    </ClCompile>
+    <ClCompile Include="Timer.cpp">
+      <Filter>Sunrin_Engine_D3D9\Utility\Timer</Filter>
+    </ClCompile>
+    <ClCompile Include="Math.cpp">
+      <Filter>Sunrin_Engine_D3D9\Utility\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>Sunrin_Engine_D3D9\Object\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="Sprite.cpp">
+      <Filter>Sunrin_Engine_D3D9\Object\Sprite</Filter>
+    </ClCompile>
+    <ClCompile Include="VertexDeclaraion.cpp">
+      <Filter>Sunrin_Engine_D3D9\Resource\VertexDeclaration</Filter>
+    </ClCompile>
+    <ClCompile Include="Light.cpp">
+      <Filter>Sunrin_Engine_D3D9\Object\Light</Filter>
+    </ClCompile>
+    <ClCompile Include="Material.cpp">
+      <Filter>Sunrin_Engine_D3D9\Resource\Material</Filter>
+    </ClCompile>
+    <ClCompile Include="EffectCamera.cpp">
+      <Filter>Sunrin_Engine_D3D9\Object\Camera\EffectCamera</Filter>
+    </ClCompile>
+    <ClCompile Include="Surface.cpp">
+      <Filter>Sunrin_Engine_D3D9\Resource\Surface</Filter>
+    </ClCompile>
+    <ClCompile Include="Font.cpp">
+      <Filter>Sunrin_Engine_D3D9\Resource\Font</Filter>
+    </ClCompile>
+    <ClCompile Include="Text.cpp">
+      <Filter>Sunrin_Engine_D3D9\Object\UI\Text</Filter>
+    </ClCompile>
+    <ClCompile Include="UI.cpp">
+      <Filter>Sunrin_Engine_D3D9\Object\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Image.cpp">
+      <Filter>Sunrin_Engine_D3D9\Object\UI\Image</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\GameScene.cpp">
+      <Filter>Game\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Board.cpp">
+      <Filter>Game\Object\Board</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\GameCamera.cpp">
+      <Filter>Game\Object\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\GameAmbientLight.cpp">
+      <Filter>Game\Object\Light</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Player.cpp">
+      <Filter>Game\Object\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Planet.cpp">
+      <Filter>Game\Object\Planet</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Enemy.cpp">
+      <Filter>Game\Object\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\EnemySpawner.cpp">
+      <Filter>Game\Object\EnemySpawner</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\PlayerBullet.cpp">
+      <Filter>Game\Object\Bullet\PlayerBullet</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Bullet.cpp">
+      <Filter>Game\Object\Bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\EnemyBullet.cpp">
+      <Filter>Game\Object\Bullet\EnemyBullet</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CLInclude Include="resource.h">
+      <Filter>Resource Files</Filter>
+    </CLInclude>
+    <ResourceCompile Include="Sunrin_Engine_D3D9.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+    <ClInclude Include="App.h">
+      <Filter>Sunrin_Engine_D3D9\App</Filter>
+    </ClInclude>
+    <ClInclude Include="Object.h">
+      <Filter>Sunrin_Engine_D3D9\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Common.h">
+      <Filter>Sunrin_Engine_D3D9\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture.h">
+      <Filter>Sunrin_Engine_D3D9\Resource\Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="DXUT\Optional\SDKsound.h">
+      <Filter>DXUT</Filter>
+    </ClInclude>
+    <ClInclude Include="DXUT\Optional\SDKwavefile.h">
+      <Filter>DXUT</Filter>
+    </ClInclude>
+    <ClInclude Include="Sound.h">
+      <Filter>Sunrin_Engine_D3D9\Resource\Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="Shader.h">
+      <Filter>Sunrin_Engine_D3D9\Resource\Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="Timer.h">
+      <Filter>Sunrin_Engine_D3D9\Utility\Timer</Filter>
+    </ClInclude>
+    <ClInclude Include="SunrinEngine.h" />
+    <ClInclude Include="Math.h">
+      <Filter>Sunrin_Engine_D3D9\Utility\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Sprite.h">
+      <Filter>Sunrin_Engine_D3D9\Object\Sprite</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>Sunrin_Engine_D3D9\Object\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="VertexDeclaration.h">
+      <Filter>Sunrin_Engine_D3D9\Resource\VertexDeclaration</Filter>
+    </ClInclude>
+    <ClInclude Include="Light.h">
+      <Filter>Sunrin_Engine_D3D9\Object\Light</Filter>
+    </ClInclude>
+    <ClInclude Include="Material.h">
+      <Filter>Sunrin_Engine_D3D9\Resource\Material</Filter>
+    </ClInclude>
+    <ClInclude Include="EffectCamera.h">
+      <Filter>Sunrin_Engine_D3D9\Object\Camera\EffectCamera</Filter>
+    </ClInclude>
+    <ClInclude Include="Surface.h">
+      <Filter>Sunrin_Engine_D3D9\Resource\Surface</Filter>
+    </ClInclude>
+    <ClInclude Include="Font.h">
+      <Filter>Sunrin_Engine_D3D9\Resource\Font</Filter>
+    </ClInclude>
+    <ClInclude Include="Text.h">
+      <Filter>Sunrin_Engine_D3D9\Object\UI\Text</Filter>
+    </ClInclude>
+    <ClInclude Include="UI.h">
+      <Filter>Sunrin_Engine_D3D9\Object\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Image.h">
+      <Filter>Sunrin_Engine_D3D9\Object\UI\Image</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\GameScene.h">
+      <Filter>Game\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Board.h">
+      <Filter>Game\Object\Board</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\GameCamera.h">
+      <Filter>Game\Object\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\GameAmbientLight.h">
+      <Filter>Game\Object\Light</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Player.h">
+      <Filter>Game\Object\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Planet.h">
+      <Filter>Game\Object\Planet</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Enemy.h">
+      <Filter>Game\Object\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\EnemySpawner.h">
+      <Filter>Game\Object\EnemySpawner</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Bullet.h">
+      <Filter>Game\Object\Bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\PlayerBullet.h">
+      <Filter>Game\Object\Bullet\PlayerBullet</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\EnemyBullet.h">
+      <Filter>Game\Object\Bullet\EnemyBullet</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
